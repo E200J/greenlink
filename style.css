@@ -1,0 +1,149 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50; /* Color verde */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Banner principal */
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #FF9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sección de productos */
+.productos {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.producto-item {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.producto-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Sección de beneficios ecológicos */
+.beneficios {
+    background-color: #e8f5e9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.beneficio {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+}
+
+.beneficio img {
+    width: 50px;
+    height: 50px;
+}
+
+.beneficio p {
+    font-weight: bold;
+}
+
+/* Testimonios */
+.testimonios {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonios p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
